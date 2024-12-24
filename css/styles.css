@@ -121,7 +121,7 @@ footer {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 80px; /* Place the button 80px from the right to avoid overlap with WhatsApp logo */
+    right: 20px; /* Place the button 80px from the right to avoid overlap with WhatsApp logo */
     z-index: 1000; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
