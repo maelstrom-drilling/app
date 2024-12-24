@@ -121,7 +121,7 @@ footer {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 80px from the right to avoid overlap with WhatsApp logo */
+    right: 80px; /* Place the button 80px from the right to avoid overlap with WhatsApp logo */
     z-index: 1000; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -142,13 +142,6 @@ footer {
 #toTopBtn:hover {
     background-color: rgba(0, 95, 107, 0.7); /* Add a darker semi-transparent background on hover */
     opacity: 1; /* Full opacity on hover */
-}
-@media (max-width: 768px) {
-    #toTopBtn {
-        width: 50px; /* Adjust width for mobile */
-        height: 50px; /* Adjust height for mobile */
-        font-size: 24px; /* Adjust font size for mobile */
-    }
 }
 .services-container {
     display: flex;
